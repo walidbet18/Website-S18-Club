@@ -1,0 +1,176 @@
+/* Text-sizing :
+  - Normal paragraph : 16 to 32 pixels
+  - Long text format : 20 pixels or bigger
+  - Big headline : 50 pixels or more and bold 700
+  - Font weight : 400, 500, 700
+  - Letter spacing : 0.5px 0.75px
+  
+  - Use 65 to 75 character per line
+  - The bigger the text is the bigger line height shoudl be and the lower the letter spacing
+*/
+
+/* Colors :
+
+Primary : #eacb5a
+Tints : #eed57b
+Shades : #bba248
+Tints for text : #171409
+Grey : #333, #555, #ddd
+
+*/
+
+/* Border radius : 10px */
+
+/* Reset */
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  line-height: 1;
+  font-weight: 400;
+  color: #333;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+/****************/
+/* GENERAL COMPONENTS */
+/****************/
+
+.container {
+  /* 1140px */
+  max-width: 114rem;
+  margin: 0 auto;
+  padding: 0 3.2rem;
+}
+
+.grid {
+  display: grid;
+  row-gap: 9.6rem;
+  column-gap: 6.4rem;
+}
+
+.grid--2-cols {
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.grid--3-cols {
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.grid--4-cols {
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.primary-heading,
+.secondary-heading,
+.tertiary-heading {
+  letter-spacing: -0.5px;
+}
+
+.primary-heading {
+  font-size: 5.2rem;
+  line-height: 1.05;
+  margin-bottom: 2rem;
+  letter-spacing: -0.75px;
+}
+
+.heading-secondary {
+  font-size: 4.4rem;
+  line-height: 1.2;
+  margin-bottom: 9.6rem;
+  color: #333;
+}
+
+.heading-tertiary {
+  font-size: 3rem;
+  line-height: 1.2;
+  margin-bottom: 2.4rem;
+  color: #333;
+}
+
+.btn:link,
+.btn:visited,
+.btn--input {
+  border-radius: 9px;
+  display: inline-block;
+  font-size: 2rem;
+  font-weight: 700;
+  padding: 1.6rem 3.2rem;
+  border: none;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.btn--outline:link,
+.btn--outline:visited {
+  background-color: #fff;
+  color: #333;
+}
+
+.btn--full:link,
+.btn--full:visited,
+.btn--input--full {
+  background-color: #eacb5a;
+  color: #fff;
+  margin-right: 0.2rem;
+}
+
+.btn--full:hover,
+.btn--full:active,
+.btn--input--full:hover {
+  background-color: #bba248;
+  color: #fff;
+  padding: 1.6rem 3.6rem;
+}
+
+.section-name {
+  color: #eacb5a;
+  font-size: 1.6rem;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 0.75px;
+  margin-bottom: 2rem;
+}
+
+.section-title {
+  color: #333;
+  font-size: 3.6rem;
+}
+
+.section-box {
+  margin-top: 6.4rem;
+}
+
+.step-prehead {
+  font-size: 1.6rem;
+  font-weight: 700;
+  color: #ddd;
+  margin-bottom: 0.4rem;
+}
+
+.step-description {
+  font-size: 1.8rem;
+  line-height: 1.8;
+  color: #555;
+}
+
+fieldset {
+  border: 0;
+}

@@ -1,0 +1,418 @@
+/****************/
+/* BELOW 1344px */
+/****************/
+
+@media (max-width: 84rem) {
+  .header {
+    max-width: 120rem;
+  }
+
+  .hero-box {
+    max-width: 120rem;
+  }
+
+  .primary-heading {
+    font-size: 4.4rem;
+  }
+}
+
+/****************/
+/* BELOW 1200px */
+/****************/
+
+@media (max-width: 75rem) {
+  html {
+    font-size: 52.25%;
+  }
+
+  .grid {
+    column-gap: 4.8rem;
+    row-gap: 6.4rem;
+  }
+
+  .secondary-heading {
+    font-size: 3.6rem;
+  }
+
+  .tertiary-heading {
+    font-size: 2.4rem;
+  }
+
+  .nav-list {
+    gap: 3.2rem;
+  }
+
+  .testimonials-box {
+    gap: 1rem;
+  }
+
+  .sign-in form,
+  .sign-up form {
+    width: 60%;
+  }
+}
+
+/****************/
+/* BELOW 1024px */
+/****************/
+
+@media (max-width: 64rem) {
+  html {
+    font-size: 50%;
+  }
+
+  body {
+    overflow-x: hidden;
+  }
+
+  .contact-form {
+    grid-template-columns: 1fr;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .footer-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .footer-grid div,
+  .nav-col {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .contact-form label {
+    display: inline-block;
+    width: 100%;
+  }
+
+  .img-box {
+    grid-row: 1;
+  }
+
+  .session-video-iframe {
+    width: 500px !important;
+    height: 280px !important;
+  }
+
+  .container {
+    max-width: 100rem;
+  }
+
+  /* Temporary */
+
+  .nav-list {
+    display: none;
+    background: #ffffff;
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+    flex-direction: column;
+    opacity: 0.999;
+    justify-content: center;
+    align-items: center;
+    gap: 4.4rem;
+  }
+
+  .main-nav-link:link,
+  .main-nav-link:visited {
+    font-size: 3rem;
+    color: #333;
+  }
+
+  .main-nav-link.cta-nav-link {
+    color: #fff;
+  }
+
+  .icon-mobile-nav.open {
+    display: block;
+  }
+
+  .icon-mobile-nav.close {
+    color: #333;
+    z-index: 99;
+    position: absolute;
+    top: 5rem;
+    right: 5rem;
+  }
+
+  .grid--2-cols,
+  .grid--3-cols,
+  .grid--4-cols {
+    grid-template-columns: 1fr;
+  }
+
+  .sign-in form,
+  .sign-up form {
+    width: 80%;
+  }
+}
+
+/****************/
+/* BELOW 750px */
+/****************/
+
+@media (max-width: 47rem) {
+  .container {
+    max-width: 80rem;
+  }
+
+  .session-video-iframe {
+    width: 300px !important;
+    height: 170px !important;
+  }
+
+  .dashboard-menu {
+    display: flex;
+    flex-direction: column;
+    justify-content: unset;
+    align-items: unset;
+  }
+}
+
+/****************/
+/* BELOW 550px */
+/****************/
+
+@media (max-width: 35rem) {
+  html {
+    font-size: 40%;
+  }
+
+  .img-box img {
+    width: 25rem;
+  }
+
+  .img-box::after {
+    width: 25rem;
+    height: 30rem;
+  }
+  .btn--full {
+    margin-bottom: 16px;
+  }
+
+  .no-flexbox-gap .nav-list li:not(:last-child) {
+    margin-right: 3rem;
+  }
+
+  .no-flexbox-gap .testimonial:not(:last-child) {
+    margin-right: 1rem;
+  }
+
+  .no-flexbox-gap .contact-form div:not(:last-child) {
+    margin-bottom: 2.4rem;
+  }
+
+  .no-flexbox-gap .footer-nav li:not(:last-child) {
+    margin-bottom: 2.4rem;
+  }
+
+  .no-flexbox-gap .social-links li:not(:last-child) {
+    margin-right: 1.2rem;
+  }
+
+  .no-flexbox-gap .hero-section {
+    position: relative;
+  }
+
+  .no-flexbox-gap .hero-box {
+    position: absolute;
+    top: 25%;
+    left: 10%;
+  }
+}
+
+/****************/
+/* BELOW 1344px */
+/****************/
+
+@media (max-width: 1344px) {
+  .header {
+    max-width: 120rem;
+  }
+
+  .hero-box {
+    max-width: 120rem;
+  }
+
+  .primary-heading {
+    font-size: 4.4rem;
+  }
+}
+
+/****************/
+/* BELOW 1200px */
+/****************/
+
+@media (max-width: 1200px) {
+  html {
+    font-size: 52.25%;
+  }
+
+  .grid {
+    column-gap: 4.8rem;
+    row-gap: 6.4rem;
+  }
+
+  .secondary-heading {
+    font-size: 3.6rem;
+  }
+
+  .tertiary-heading {
+    font-size: 2.4rem;
+  }
+
+  .nav-list {
+    gap: 3.2rem;
+  }
+
+  .testimonials-box {
+    gap: 1rem;
+  }
+}
+
+/****************/
+/* BELOW 1024px */
+/****************/
+
+@media (max-width: 1024px) {
+  html {
+    font-size: 50%;
+  }
+
+  body {
+    overflow-x: hidden;
+  }
+
+  .contact-form {
+    grid-template-columns: 1fr;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .footer-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .footer-grid div,
+  .nav-col {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .contact-form label {
+    display: inline-block;
+    width: 100%;
+  }
+
+  .img-box {
+    grid-row: 1;
+  }
+
+  .session-video-iframe {
+    width: 500px !important;
+    height: 280px !important;
+  }
+
+  .container {
+    max-width: 100rem;
+  }
+
+  /* Temporary */
+
+  .nav-list {
+    display: none;
+    background: #ffffff;
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+    flex-direction: column;
+    opacity: 0.999;
+    justify-content: center;
+    align-items: center;
+    gap: 4.4rem;
+    z-index: 98;
+  }
+
+  .no-flexbox-gap .nav-list li:not(:last-child) {
+    margin-bottom: 3rem;
+  }
+
+  .main-nav-link:link,
+  .main-nav-link:visited {
+    font-size: 3rem;
+    color: #333;
+  }
+
+  .main-nav-link.cta-nav-link {
+    color: #fff;
+  }
+
+  .icon-mobile-nav.open {
+    display: block;
+  }
+
+  .no-flexbox-gap .testimonial:not(:last-child) {
+    margin-bottom: 1rem;
+  }
+
+  .icon-mobile-nav.close {
+    color: #333;
+    z-index: 99;
+    position: absolute;
+    top: 5rem;
+    right: 5rem;
+  }
+  .grid--2-cols,
+  .grid--3-cols,
+  .grid--4-cols {
+    grid-template-columns: 1fr;
+  }
+}
+
+/****************/
+/* BELOW 750px */
+/****************/
+
+@media (max-width: 750px) {
+  .container {
+    max-width: 80rem;
+  }
+
+  .session-video-iframe {
+    width: 300px !important;
+    height: 170px !important;
+  }
+}
+
+/****************/
+/* BELOW 550px */
+/****************/
+
+@media (max-width: 550px) {
+  html {
+    font-size: 40%;
+  }
+
+  .img-box img {
+    width: 25rem;
+  }
+
+  .img-box::after {
+    width: 25rem;
+    height: 30rem;
+  }
+  .btn--full {
+    margin-bottom: 16px;
+  }
+}
